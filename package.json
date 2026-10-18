@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-epo-publication-server",
+  "version": "0.1.0",
+  "description": "EPO European Publication Server (EPS) MCP",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-epo-publication-server": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "epo-publication-server"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-epo-publication-server.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-8ae2b12d11a59db30b29762c0c3ac75723b549b4929344190f9ffd9a6607d1b0",
+    "sourceCommit": "0f33463aa47677f38e4f177a4b4a7160dd80819f"
+  }
+}
