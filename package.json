@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-epo-publication-server",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "EPO European Publication Server (EPS) MCP",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "epo-publication-server",
     "gatewaySlug": "epo-publication-server",
-    "sourceHash": "v1-2bbedd816b26ff6c1a145b7e1720aa1ad27d96d39cb08b9fdb5755587fe8a86b",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-8bd2d32eb5ad0ad9600957c23c99298a44a20707aa610871a1055f86ec391dcd",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
